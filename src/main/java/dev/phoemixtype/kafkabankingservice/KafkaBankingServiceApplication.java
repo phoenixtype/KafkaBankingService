@@ -28,8 +28,6 @@ public class KafkaBankingServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaBankingServiceApplication.class, args);
 	}
-
-
 }
 
 
@@ -67,8 +65,6 @@ class Processor {
 
 	@Value("${spring.kafka.properties.schema.registry.url}")
 	private String schemaRegistryUrl;
-
-	private final CustomerBalanceConfig customerBalanceConfig;
 
 
 	@Bean
