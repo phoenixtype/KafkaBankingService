@@ -1,0 +1,6 @@
+{
+  "subject": "CustomerBalance-value",
+  "version": 1,
+  "id": 3,
+  "schema": "{\"type\":\"record\",\"name\":\"CustomerBalance\",\"namespace\":\"com.ibm.gbs.schema\",\"fields\":[{\"name\":\"accountId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"customerId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"phoneNumber\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"balance\",\"type\":\"float\"}]}"
+}

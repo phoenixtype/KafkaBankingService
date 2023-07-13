@@ -1,0 +1,6 @@
+{
+  "subject": "Customer-value",
+  "version": 1,
+  "id": 2,
+  "schema": "{\"type\":\"record\",\"name\":\"Customer\",\"namespace\":\"com.ibm.gbs.schema\",\"fields\":[{\"name\":\"customerId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"name\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"phoneNumber\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"accountId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}]}"
+}

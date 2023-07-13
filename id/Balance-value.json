@@ -1,0 +1,6 @@
+{
+  "subject": "Balance-value",
+  "version": 1,
+  "id": 1,
+  "schema": "{\"type\":\"record\",\"name\":\"Balance\",\"namespace\":\"com.ibm.gbs.schema\",\"fields\":[{\"name\":\"balanceId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"accountId\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}},{\"name\":\"balance\",\"type\":\"float\"}]}"
+}
